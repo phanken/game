@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: h5-game-server
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: MONGODB_URI
+        sync: false
+      - key: MONGODB_DB
+        value: trumclub0bot
+      - key: MONGODB_CALLBACK_DB
+        value: X29
+      - key: JWT_SECRET
+        generateValue: true
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+      - key: NTBA_FIX_319
+        value: "1"
