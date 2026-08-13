@@ -1,4 +1,4 @@
-# Deploy server game H5 lên Render ok bạn
+# Deploy server game H5 lên Render ok bạn sao không deloy hả mầy
 
 ## 1. File này đã được chỉnh gì
 
